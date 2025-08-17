@@ -5,14 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Orchere Tumurekeyisoni — Portfolio</title>
   <style>
-    body {font-family: Arial, sans-serif; margin: 0; background: #f5f5f5; color: #222;}
-    header, footer {background: #1a1a1a; color: #fff; padding: 1rem;}
-    nav a {margin: 0 10px; color: #fff; text-decoration: none;}
-    .container {max-width: 900px; margin: auto; padding: 1.5rem;}
-    section {margin-bottom: 2rem;}
-    h1, h2 {color: #333;}
-    .card {background: #fff; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin-top: 1rem;}
-    a {color: #0066cc;}
+    /* Base styles */
+    body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background: #f0f4f8; color: #333;}
+    a {color: #1a73e8; text-decoration: none;}
+    a:hover {text-decoration: underline;}
+    
+    /* Header & nav */
+    header {background: #1f2937; color: #fff; padding: 1.5rem; text-align: center;}
+    header h1 {margin: 0.2rem 0;}
+    header p {margin: 0.5rem 0 1rem 0; font-size: 1.1rem;}
+    nav a {margin: 0 12px; color: #fff; font-weight: bold;}
+    
+    /* Main container */
+    .container {max-width: 900px; margin: 2rem auto; padding: 1rem;}
+    section {margin-bottom: 2.5rem;}
+    h2 {color: #1f2937; border-bottom: 2px solid #1a73e8; padding-bottom: 0.3rem;}
+    
+    /* Cards */
+    .card {background: #fff; padding: 1.5rem; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); margin-top: 1rem;}
+    
+    /* Footer */
+    footer {background: #1f2937; color: #fff; text-align: center; padding: 1rem; margin-top: 2rem;}
   </style>
 </head>
 <body>
@@ -31,7 +44,7 @@
     <section id="bio">
       <h2>Bio</h2>
       <div class="card">
-        <p>Write your bio here: a few sentences about your background, interests, and goals.</p>
+        <p>My name is Orchere Tumurekeyisoni, an ALX Rwanda Pathway student focusing on software engineering and entrepreneurship. I am passionate about using technology to solve real-world problems and improve community life. With experience in teamwork, problem-solving, and project development, I aim to create practical and innovative solutions. I am dedicated to continuous learning and applying my skills to projects that make a meaningful impact.</p>
       </div>
     </section>
 
@@ -63,6 +76,8 @@
     <p>© <span id="year"></span> Orchere Tumurekeyisoni</p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
