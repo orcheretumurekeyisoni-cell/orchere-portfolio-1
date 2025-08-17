@@ -67,7 +67,7 @@
       <h2>Contact</h2>
       <div class="card">
         <p>Email: <a href="mailto:orcheretumurekeyisoni@gmail.com">orcheretumurekeyisoni@gmail.com</a></p>
-        <p>LinkedIn: <a href="#" target="_blank">Add Link</a></p>
+      
       </div>
     </section>
   </main>
