@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Orchere Tumurekeyisoni — Portfolio</title>
+  <title>Orchere Tumurekeyisoni —  Portfolio</title>
   <style>
     /* Base styles */
     body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background: #f0f4f8; color: #333;}
@@ -44,7 +44,7 @@
     <section id="bio">
       <h2>Bio</h2>
       <div class="card">
-        <p>My name is Orchere Tumurekeyisoni, an ALX Rwanda Pathway student focusing on software engineering and entrepreneurship. I am passionate about using technology to solve real-world problems and improve community life. With experience in teamwork, problem-solving, and project development, I aim to create practical and innovative solutions. I am dedicated to continuous learning and applying my skills to projects that make a meaningful impact.</p>
+        <p>Hi, my name is Orchere Tumurekeyisoni, an aspiring software engineer from Rwanda passionate about using technology to solve healthcare challenges. My focus is on building innovative digital health solutions that make medical services more accessible and affordable for underserved communities. I chose software engineering because it equips me with the tools to design impactful systems like telemedicine platforms and mobile health applications. I aim to grow into a HealthTech Software Engineer and one day lead my own startup. What makes me unique is my ability to merge technical problem-solving with a mission-driven mindset. Outside of my work, I enjoy tackling math problems as a hobby. Feel free to connect with me on LinkedIn to follow my journey in combining technology with healthcare for real-world impact.</p>
       </div>
     </section>
 
