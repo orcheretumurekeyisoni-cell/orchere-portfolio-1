@@ -1,84 +1,85 @@
-![or pic ](https://github.com/user-attachments/assets/c8e8805b-4de9-4832-ab9a-da1673ed3f3b)
-  <!doctype html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Orchere Tumurekeyisoni —  Portfolio</title>
-  <style>
-    /* Base styles */
-    body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background: #f0f4f8; color: #333;}
-    a {color: #1a73e8; text-decoration: none;}
-    a:hover {text-decoration: underline;}
-    
-    /* Header & nav */
-    header {background: #1f2937; color: #fff; padding: 1.5rem; text-align: center;}
-    header h1 {margin: 0.2rem 0;}
-    header p {margin: 0.5rem 0 1rem 0; font-size: 1.1rem;}
-    nav a {margin: 0 12px; color: #fff; font-weight: bold;}
-    
-    /* Main container */
-    .container {max-width: 900px; margin: 2rem auto; padding: 1rem;}
-    section {margin-bottom: 2.5rem;}
-    h2 {color: #1f2937; border-bottom: 2px solid #1a73e8; padding-bottom: 0.3rem;}
-    
-    /* Cards */
-    .card {background: #fff; padding: 1.5rem; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); margin-top: 1rem;}
-    
-    /* Footer */
-    footer {background: #1f2937; color: #fff; text-align: center; padding: 1rem; margin-top: 2rem;}
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orchere Tumurekeyisoni - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-  <header>
-    <h1>Orchere Tumurekeyisoni</h1>
-    <p>Aspiring Software Engineer • ALX Rwanda Pathway</p>
-    <nav>
-      <a href="#bio">Bio</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#elevator">Elevator Pitch</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+<body class="bg-gray-50 text-gray-800 font-sans">
 
-  <main class="container">
-    <section id="bio">
-      <h2>Bio</h2>
-      <div class="card">
-        <p>Hi, my name is Orchere Tumurekeyisoni, an aspiring software engineer from Rwanda passionate about using technology to solve healthcare challenges. My focus is on building innovative digital health solutions that make medical services more accessible and affordable for underserved communities. I chose software engineering because it equips me with the tools to design impactful systems like telemedicine platforms and mobile health applications. I aim to grow into a HealthTech Software Engineer and one day lead my own startup. What makes me unique is my ability to merge technical problem-solving with a mission-driven mindset. Outside of my work, I enjoy tackling math problems as a hobby. Feel free to connect with me on LinkedIn to follow my journey in combining technology with healthcare for real-world impact.</p>
+  <!-- Navbar -->
+  <nav class="bg-blue-600 text-white p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Orchere T.</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#home" class="hover:underline">Home</a></li>
+        <li><a href="#about" class="hover:underline">About</a></li>
+        <li><a href="#portfolio" class="hover:underline">Portfolio</a></li>
+        <li><a href="#pitch" class="hover:underline">Pitch</a></li>
+        <li><a href="#contact" class="hover:underline">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="text-center py-20 bg-gradient-to-r from-blue-500 to-green-400 text-white">
+    <img src="or picture.jpg" alt="Orchere Tumurekeyisoni" class="mx-auto w-40 h-40 rounded-full mb-6 shadow-lg object-cover">
+    <h2 class="text-4xl font-bold mb-4">Hi, I’m Orchere Tumurekeyisoni</h2>
+    <p class="text-lg">Aspiring Software Engineer | HealthTech Innovator</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="container mx-auto py-16 px-6">
+    <h3 class="text-3xl font-bold text-center mb-8">About Me</h3>
+    <div class="max-w-3xl mx-auto text-lg leading-relaxed text-center">
+      <img src="or picture.jpg" alt="Orchere Tumurekeyisoni" class="mx-auto w-48 h-48 rounded-full mb-6 shadow-md object-cover">
+      <p>Hi, my name is <strong>Orchere Tumurekeyisoni</strong>, an aspiring software engineer from Rwanda passionate about using technology to solve healthcare challenges. My focus is on building innovative digital health solutions that make medical services more accessible and affordable for underserved communities.</p>
+      <p class="mt-4">I chose <strong>Software Engineering</strong> because it equips me with the tools to design impactful systems like telemedicine platforms and mobile health applications. My goal is to grow into a <em>HealthTech Software Engineer</em> and one day lead my own startup. What makes me unique is my ability to merge technical problem-solving with a mission-driven mindset.</p>
+      <p class="mt-4">Outside of my work, I enjoy tackling math problems as a hobby. Feel free to connect with me on <a href="https://www.linkedin.com/in/orchere-tumurekeyisoni-7a536b380" target="_blank" class="text-blue-600 underline">LinkedIn</a> to follow my journey in combining technology with healthcare for real-world impact.</p>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="bg-gray-100 py-16 px-6">
+    <h3 class="text-3xl font-bold text-center mb-8">Portfolio</h3>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="bg-white p-6 rounded-2xl shadow-md">
+        <h4 class="font-bold text-xl mb-2">HealthTech App Concept</h4>
+        <p>A mobile app idea that connects patients with doctors remotely, aiming to improve access to healthcare in rural areas.</p>
       </div>
-    </section>
-
-    <section id="portfolio">
-      <h2>Portfolio</h2>
-      <div class="card">
-        <p><strong>Phase 2 Project Video:</strong> <a href="https://youtu.be/2Whi0xpohVQ" target="_blank">Watch Here</a></p>
-        <p><strong>Phase 2 Project Slides (PDF/Google Slides):</strong> <a href="https://docs.google.com/presentation/d/155eu4e8yNDUDhT9Kv7xCil77qA19wPNNFCUl5puY7J4/edit?usp=sharing" target="_blank">View Slides</a></p>
+      <div class="bg-white p-6 rounded-2xl shadow-md">
+        <h4 class="font-bold text-xl mb-2">Responsive Web Design</h4>
+        <p>A collection of clean and modern websites built with accessibility and healthcare services in mind.</p>
       </div>
-    </section>
-
-    <section id="elevator">
-      <h2>Elevator Pitch</h2>
-      <div class="card">
-        <p>Hello, my name is Orchere Tumurekeyisoni, and I am currently an ALX Rwanda student in the Pathway Program, focusing on software engineering and entrepreneurship. I have experience in problem-solving, teamwork, and leveraging technology to create simple but impactful solutions. What makes me stand out is my passion for connecting technology to real-life community needs, such as improving access to healthcare and supporting local innovation. I can help organizations solve problems efficiently and create solutions that make life easier for their users. I am seeking opportunities to contribute to technology-driven projects where I can apply my skills, deliver value, and continue to grow professionally. Thank you for considering me, and I look forward to connecting with you.</p>
+      <div class="bg-white p-6 rounded-2xl shadow-md">
+        <h4 class="font-bold text-xl mb-2">Problem-Solving Projects</h4>
+        <p>Small coding projects that demonstrate my ability to apply software solutions to real-world problems.</p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <div class="card">
-        <p>Email: <a href="mailto:orcheretumurekeyisoni@gmail.com">orcheretumurekeyisoni@gmail.com</a></p>
-      
-      </div>
-    </section>
-  </main>
+  <!-- Elevator Pitch Section -->
+  <section id="pitch" class="container mx-auto py-16 px-6 text-center">
+    <h3 class="text-3xl font-bold mb-6">My Elevator Pitch</h3>
+    <p class="mb-6">Watch my quick introduction video to learn about my mission and skills:</p>
+    <div class="aspect-w-16 aspect-h-9 max-w-3xl mx-auto">
+      <iframe class="w-full h-64 md:h-96 rounded-xl shadow-md" src="https://www.youtube.com/embed/kC9mYQLB5bw" title="Elevator Pitch" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
 
-  <footer>
-    <p>© <span id="year"></span> Orchere Tumurekeyisoni</p>
+  <!-- Contact Section -->
+  <section id="contact" class="bg-blue-600 text-white py-16 px-6 text-center">
+    <h3 class="text-3xl font-bold mb-6">Contact Me</h3>
+    <p>If you’d like to collaborate or learn more about my work, feel free to connect with me.</p>
+    <p class="mt-4">Email: <a href="mailto:orchere@example.com" class="underline">orchere@example.com</a></p>
+    <p class="mt-2">LinkedIn: <a href="https://www.linkedin.com/in/orchere-tumurekeyisoni-7a536b380" target="_blank" class="underline">Orchere Tumurekeyisoni</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 text-center p-4">
+    <p>&copy; 2025 Orchere Tumurekeyisoni | Portfolio</p>
   </footer>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
