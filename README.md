@@ -1,32 +1,78 @@
- 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Orchere Tumurekeyisoni - Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orchere Portfolio</title>
+    <style>
+        /* Reset default margins */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Profile Image Container */
+        .profile-container {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Square Profile Image */
+        .profile-photo {
+            width: 180px;       /* size of the square */
+            height: 180px;      /* same as width */
+            object-fit: cover;  /* ensures image fills the square nicely */
+            border-radius: 0%;  /* square shape */
+            border: 3px solid #333; /* optional border */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* subtle shadow */
+        }
+
+        /* Name and Title Section */
+        .name-title {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .name-title h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .name-title p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+    </style>
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans">
+<body>
 
-  <!-- Navbar -->
-  <nav class="bg-blue-600 text-white p-4 shadow-md">
-    <div class="container mx-auto flex justify-between items-center">
-      <h1 class="text-2xl font-bold">Orchere T.</h1>
-      <ul class="flex space-x-6">
-        <li><a href="#home" class="hover:underline">Home</a></li>
-        <li><a href="#about" class="hover:underline">About</a></li>
-        <li><a href="#portfolio" class="hover:underline">Portfolio</a></li>
-        <li><a href="#pitch" class="hover:underline">Pitch</a></li>
-        <li><a href="#contact" class="hover:underline">Contact</a></li>
-      </ul>
+    <!-- Profile Section -->
+    <div class="profile-container">
+        <img src="profile.jpg" alt="Orchere Photo" class="profile-photo">
     </div>
-  </nav>
 
-  <!-- Hero Section -->
-  <section id="home" class="text-center py-20 bg-gradient-to-r from-blue-500 to-green-400 text-white">
-    <img src=!![profile jpg](https://github.com/user-attachments/assets/9f43c223-e603-4c37-897b-631dacbc9af3)
-[profile jpg](https://github.com/user-attachments/assets/e758dd6a-f741-471b-8779-0ddac48927ae)
-" " alt="Orchere Tumurekeyisoni" class="![Uploading profile.jpg.jpg…]()
-mx-auto w-40 h-40 rounded-full mb-6 shadow-lg object-cover">
-    <h2 class="text-4xl font-bold mb-4">Hi, I’m Orchere Tumurekeyisoni</h2>
-    <p class="text-lg">Aspiring Software Engineer | HealthTech Innovator</p>
+    <!-- Name and Title -->
+    <div class="name-title">
+        <h1>Orchere Tumurekeyisoni</h1>
+        <p>Aspiring Software Engineer | ALX RANDA Pathway Program</p>
+    </div>
+
+</body>
+</html>
+![profile jpg](https://github.com/user-attachments/assets/8689fae2-263c-415c-87e8-8dcd9078907d)
+
   </section>
 
   <!-- About Section -->
