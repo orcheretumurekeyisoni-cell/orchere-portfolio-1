@@ -26,7 +26,8 @@
 
   <!-- Hero Section -->
   <section id="home" class="text-center py-20 bg-gradient-to-r from-blue-500 to-green-400 text-white">
-    <img src="or_pic_optimized.jpg" alt="Orchere Tumurekeyisoni" class="mx-auto w-40 h-40 rounded-full mb-6 shadow-lg object-cover">
+    <img src=![profile jpg](https://github.com/user-attachments/assets/e758dd6a-f741-471b-8779-0ddac48927ae)
+" " alt="Orchere Tumurekeyisoni" class="mx-auto w-40 h-40 rounded-full mb-6 shadow-lg object-cover">
     <h2 class="text-4xl font-bold mb-4">Hi, I’m Orchere Tumurekeyisoni</h2>
     <p class="text-lg">Aspiring Software Engineer | HealthTech Innovator</p>
   </section>
