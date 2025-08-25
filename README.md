@@ -1,6 +1,4 @@
-![Uploading or picture.jpg…]()
-![Uploading or picture.jpg…]()
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -26,7 +24,7 @@
 
   <!-- Hero Section -->
   <section id="home" class="text-center py-20 bg-gradient-to-r from-blue-500 to-green-400 text-white">
-    <img src="or picture.jpg" alt="Orchere Tumurekeyisoni" class="mx-auto w-40 h-40 rounded-full mb-6 shadow-lg object-cover">
+    <img src="or pic .jpg" alt="Orchere Tumurekeyisoni" class="mx-auto w-40 h-40 rounded-full mb-6 shadow-lg object-cover">
     <h2 class="text-4xl font-bold mb-4">Hi, I’m Orchere Tumurekeyisoni</h2>
     <p class="text-lg">Aspiring Software Engineer | HealthTech Innovator</p>
   </section>
@@ -35,7 +33,6 @@
   <section id="about" class="container mx-auto py-16 px-6">
     <h3 class="text-3xl font-bold text-center mb-8">About Me</h3>
     <div class="max-w-3xl mx-auto text-lg leading-relaxed text-center">
-      <img src="or picture.jpg" alt="Orchere Tumurekeyisoni" class="mx-auto w-48 h-48 rounded-full mb-6 shadow-md object-cover">
       <p>Hi, my name is <strong>Orchere Tumurekeyisoni</strong>, an aspiring software engineer from Rwanda passionate about using technology to solve healthcare challenges. My focus is on building innovative digital health solutions that make medical services more accessible and affordable for underserved communities.</p>
       <p class="mt-4">I chose <strong>Software Engineering</strong> because it equips me with the tools to design impactful systems like telemedicine platforms and mobile health applications. My goal is to grow into a <em>HealthTech Software Engineer</em> and one day lead my own startup. What makes me unique is my ability to merge technical problem-solving with a mission-driven mindset.</p>
       <p class="mt-4">Outside of my work, I enjoy tackling math problems as a hobby. Feel free to connect with me on <a href="https://www.linkedin.com/in/orchere-tumurekeyisoni-7a536b380" target="_blank" class="text-blue-600 underline">LinkedIn</a> to follow my journey in combining technology with healthcare for real-world impact.</p>
