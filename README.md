@@ -24,7 +24,7 @@
 
   <!-- Hero Section -->
   <section id="home" class="text-center py-20 bg-gradient-to-r from-blue-500 to-green-400 text-white">
-    <img src="or pic .jpg" alt="Orchere Tumurekeyisoni" class="mx-auto w-40 h-40 rounded-full mb-6 shadow-lg object-cover">
+    <img src="profile.jpg" alt="Orchere Tumurekeyisoni" class="mx-auto w-40 h-40 rounded-full mb-6 shadow-lg object-cover">
     <h2 class="text-4xl font-bold mb-4">Hi, I’m Orchere Tumurekeyisoni</h2>
     <p class="text-lg">Aspiring Software Engineer | HealthTech Innovator</p>
   </section>
@@ -71,7 +71,7 @@
   <section id="contact" class="bg-blue-600 text-white py-16 px-6 text-center">
     <h3 class="text-3xl font-bold mb-6">Contact Me</h3>
     <p>If you’d like to collaborate or learn more about my work, feel free to connect with me.</p>
-    <p class="mt-4">Email: <a href="mailto:orchere@example.com" class="underline">orchere@example.com</a></p>
+    <p class="mt-4">Email: <a href="mailto:orcheretumurekeyisoni@gmail.com" class="underline">orcheretumurekeyisoni@gmail.com</a></p>
     <p class="mt-2">LinkedIn: <a href="https://www.linkedin.com/in/orchere-tumurekeyisoni-7a536b380" target="_blank" class="underline">Orchere Tumurekeyisoni</a></p>
   </section>
 
@@ -82,3 +82,4 @@
 
 </body>
 </html>
+![plofile jpg](https://github.com/user-attachments/assets/6bb9adae-cd9d-47de-99c5-dd3c86be764c)
