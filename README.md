@@ -1,7 +1,9 @@
  <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8"> <img src="images/profile.jpg" alt="Orchere Tumurekeyisoni" class="profile-photo" style="width:250px; height:auto; border-radius:50%;">
+![profile jpg](https://github.com/user-attachments/assets/5d45d43e-5bf4-429b-a2dd-3dc59c544111)
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Orchere Tumurekeyisoni - Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
